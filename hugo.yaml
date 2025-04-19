@@ -80,9 +80,7 @@ params:
             map:
                 embeddableMapUrl: https://www.openstreetmap.org/export/embed.html?bbox=-97.737073302269%2C30.2880897682352%2C-97.73462712764741%2C30.289891668602873&amp;layer=mapnik
             socialLinks:
-                xUrl: https://x.com/Chishki2025
-                facebookUrl: https://www.facebook.com/Chishki2025
-                linkedinUrl: https://www.linkedin.com/company/chishki2025
+                linkedinUrl: https://www.linkedin.com/company/chishikiai/
             images:
                 logo: images/ai.png
                 titleBackground: images/future-cities.png
@@ -92,10 +90,14 @@ params:
                 - logo: images/tacc.png
                   url: https://tacc.utexas.edu/
                   name: Texas Advanced Computing Center - TACC
-                # - logo: images/ai.png
-                #   url: https://www.designsafe-ci.org/
-                #   name: DesignSafe-CI
-                # - logo: images/ai.png
-                #   url: https://cvw.cac.cornell.edu/
-                #   name: Cornell Virtual Workshop
+                - logo: images/designsafe.png
+                  url: https://www.designsafe-ci.org/
+                  name: DesignSafe-CI
+                - logo: images/cornell.svg
+                  url: https://cvw.cac.cornell.edu/
+                  name: Cornell Virtual Workshop
+            sponsors:
+                - logo: images/NSF.svg
+                  url: https://www.nsf.gov/
+                  name: NSF
             
