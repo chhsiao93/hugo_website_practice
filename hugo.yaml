@@ -102,4 +102,8 @@ params:
                 - logo: images/NSF.svg
                   url: https://www.nsf.gov/
                   name: NSF
-            
+            colors:
+                primaryLighter: '#4A9BCB'
+                primary: '#0B6FA8'
+                primaryDarker: '#113776'
+                track: '#129FAF'
