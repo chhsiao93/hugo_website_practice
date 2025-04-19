@@ -88,6 +88,9 @@ params:
                 titleBackground: images/future-cities.png
                 # 👇 Image showcasing the building or venue where the event will take place.
                 location: images/ecj.jpg
+            callToAction:
+                other:
+                    url: https://utexas.qualtrics.com/jfe/form/SV_80zmcik1b6lNB2K  
             partners:
                 - logo: images/tacc.png
                   url: https://tacc.utexas.edu/
@@ -107,3 +110,5 @@ params:
                 primary: '#0B6FA8'
                 primaryDarker: '#113776'
                 track: '#129FAF'
+
+        
