@@ -1,0 +1,101 @@
+theme: event
+sectionPagesMenu: main
+
+languages:
+    en:
+        menus:
+            main:
+                - identifier: about
+                  pageRef: /about
+                  weight: 10
+                - identifier: sessions
+                  pageRef: /sessions
+                  weight: 20
+                - identifier: speakers
+                  pageRef: /speakers
+                  weight: 30
+                - identifier: location
+                  pageRef: /location
+                  weight: 40
+                - identifier: sponsors
+                  pageRef: /sponsors
+                  weight: 50
+                - identifier: code_of_conduct
+                  pageRef: /code-of-conduct
+                  weight: 60
+            footer:
+                - identifier: imprint
+                  pageRef: /imprint
+                  weight: 10
+                - identifier: privacy
+                  pageRef: /privacy-policy
+                  weight: 20
+            secondary:
+                - identifier: about
+                  pageRef: /about
+                  weight: 10
+                  params:
+                      description: |
+                          Learn more about our mission, values, and the people behind our organization.
+                          The "About Us" page provides insights into who we are, what we do,
+                          and why we’re passionate about our work.
+                - identifier: speakers
+                  pageRef: /speakers
+                  weight: 30
+                  params:
+                      description: |
+                          Meet our distinguished speakers who will be sharing their expertise.
+                          Learn more about their backgrounds and what they will discuss.
+                - identifier: location
+                  pageRef: /location
+                  weight: 40
+                  params:
+                      description: |
+                          Find out where the event will take place.
+                          This section provides details on the venue, directions, and nearby accommodations.
+                - identifier: code_of_conduct
+                  pageRef: /code-of-conduct
+                  weight: 60
+                  params:
+                      description: |
+                          Read about the code of conduct for our event.
+                          This section outlines the expectations for participant behavior and event policies.
+params:
+    themes:
+        event:
+            # 👇 Set the name of your event.
+            title: Chishki-2025 Webinar
+            # 👇 Fetch the ID of your event's API endpoint from
+            # 👇 https://sessionize.com/app/organizer/schedule/api/0
+            # 👇 and enter it here.
+            sessionizeId: px5xb5dp
+            slogan: What starts here changes the world
+            startDate: 2025-05-14
+            endDate: 2025-05-21
+            location: Austin, Texas
+            address:
+                - ECJ Building
+                - 301 Dean Keeton St
+                - Austin, Texas
+            map:
+                embeddableMapUrl: https://www.openstreetmap.org/export/embed.html?bbox=-97.737073302269%2C30.2880897682352%2C-97.73462712764741%2C30.289891668602873&amp;layer=mapnik
+            socialLinks:
+                xUrl: https://x.com/Chishki2025
+                facebookUrl: https://www.facebook.com/Chishki2025
+                linkedinUrl: https://www.linkedin.com/company/chishki2025
+            images:
+                logo: images/ai.png
+                titleBackground: images/future-cities.png
+                # 👇 Image showcasing the building or venue where the event will take place.
+                location: images/ecj.jpg
+            partners:
+                - logo: images/tacc.png
+                  url: https://tacc.utexas.edu/
+                  name: Texas Advanced Computing Center - TACC
+                # - logo: images/ai.png
+                #   url: https://www.designsafe-ci.org/
+                #   name: DesignSafe-CI
+                # - logo: images/ai.png
+                #   url: https://cvw.cac.cornell.edu/
+                #   name: Cornell Virtual Workshop
+            
